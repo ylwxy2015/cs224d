@@ -16,12 +16,10 @@ cs224d lecture9
           <img src="./1.png" width="550" height="450">
         
         如何训练该模型？————max-margin parsing
-          
-          <img src="./3.png">
+          <img src="./3.png">
           论文里给出的object function是这样的，其中delta(yi, y_hat)是根据标记错误的node数量再乘以一个k得出的：
-          <img src="./4.png">
-          如果w不是最优的w那么max()里左边的score选出来的不是y_i，再加上L_i那么最终肯定是ri很大，必然不是最小的；如果w是最优的呢？那肯定max()选出来的是yi，delta肯定为零，然后总体必然最小。这样的w必然使得score(y_i)比其他所有的score(y)大，并且大出来一个L_i(y)的margin。
-        
-        你好
+          <img src="./4.png">
+          如果w不是最优的w那么max()里左边的score选出来的不是y_i，再加上L_i那么最终肯定是ri很大，必然不是最小的；如果w是最优的呢？那肯定max()选出来的是yi，delta肯定为零，然后总体必然最小。这样的w必然使得score(y_i)比其他所有的score(y)大，并且大出来一个L_i(y)的margin。
+          
         
       
